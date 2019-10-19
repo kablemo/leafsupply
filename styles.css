@@ -235,8 +235,9 @@ i:hover {
 
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 639px) {
+@media (max-width: 640px) {
 	body {
+		backround-color: yellow;
 	}
 
 	main {
