@@ -113,7 +113,6 @@ a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	border: 2px solid red;
 }
 
 #ibm {
@@ -236,7 +235,7 @@ i:hover {
 
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 639px) {
 	body {
 	}
 
