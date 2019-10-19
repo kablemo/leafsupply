@@ -1,0 +1,342 @@
+/* Leaf Supply styles */
+
+/* Ziemo color: #28B463; #82E0AA */
+
+html {
+	margin: auto 0;
+   	font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 18px;
+  line-height: 27px;
+  font-weight:300;
+  color: #121212;
+}
+
+main {
+	margin: 0px 75px;
+}
+
+nav {
+	border: 0px solid blue;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0px 75px;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+	line-height: 1.1em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+a {
+	color: #28B463;
+}
+
+a:hover {
+	color: #82E0AA;
+}
+
+.navbar-nav {
+	border: 0px solid pink;
+	display: flex;
+	align-items: flex-end;
+}
+
+.navbar-toggler {
+	margin-left: -15px;
+}
+
+.container-fluid {
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+}
+
+.section-header {
+	border: 0px solid purple;
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	margin: 100px 0px 25px 0px;
+}
+
+#link-to-more {
+	align-items: flex-end;
+	padding-top: 10px;
+}
+
+.container {
+	border: 0px solid red;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .p {
+	line-height: 0px;
+	margin: 0px;
+}
+
+/* Hamburger Menu */
+
+.hamburger-menu {
+	display: none;
+	color: #D5F5E3;
+	background-color: #1C2833;
+}
+
+
+.custom-control {
+	margin-left: 30px;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #28B463;
+    background-color: #28B463;
+}
+
+/* Jumbotron */
+
+#jumbotron-image {
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	border: 2px solid red;
+}
+
+#ibm {
+	width: 450px;
+}
+
+#jumbotron-text {
+	justify-content: center;
+	margin-right: 50px;
+}
+
+#hamburger-menu-right {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#case-studies-section {
+	justify-content: space-between;
+}
+
+.card {
+	width: 32%;
+}
+
+#video-section {
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+#video-section {
+	padding: 75px 0px;
+}
+
+footer {
+	border: 0px solid orange;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 25px;
+	padding: 25px 0px 25px 0px;
+	background-color: #E8F8F5;
+}
+
+
+
+/* Duotone */
+
+:root {
+  --base:              #08b76c;
+  --bg-blend:          multiply;
+  --blur:              0px;
+  --fg-blend:          lighten;
+  --foreground:        #0a3463;
+  --opacity:           1;
+  --spacing:           0%;
+}
+.img-wrap {
+  background-color:    var(--base);
+  display:             flex;
+  flex:                1 1 100%;
+  height:              100%;
+  overflow:            hidden;
+  padding:             var(--spacing);
+  position:            relative;
+}
+
+.img-wrap img {
+  filter:              grayscale(100%) contrast(1) blur(var(--blur));
+  flex:                1 0 100%;
+  height:              100%;
+  max-width:           100%;
+  mix-blend-mode:      var(--bg-blend);
+  object-fit:          cover;
+  opacity:             var(--opacity);
+  position:            relative;
+  width:               100%;
+}
+
+.img-wrap::before {
+  background-color:    var(--foreground);
+  bottom:              0;
+  content:             '';
+  height:              100%;
+  left:                0;
+  mix-blend-mode:      var(--fg-blend);
+  position:            absolute;
+  right:               0;
+  top:                 0;
+  width:               100%;
+  z-index:             1;
+}
+
+
+/* Social Media Icons */
+
+#social-media-icon {
+	color: green;
+	font-size: 32px;
+}
+
+#social-media-icon:hover {
+	color: red;
+}
+
+i {
+	color: #28B463;
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+i:hover {
+	color: #82E0AA;
+	cursor: pointer;
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	body {
+	}
+
+	main {
+		margin: 0px 15px;
+	}
+
+	#navbar {
+		display: none;
+	}
+
+	.hamburger-menu {
+		display: block;
+		margin-bottom: 30px;
+		background-color: #1C2833;
+		color: #D5F5E3;
+	}
+
+	.navbar-toggler {
+	margin-left: -75px;
+	}
+
+	.fa-bars:before {
+		color: #D5F5E3;
+	}
+
+	.p-4 {
+		background-color: #273746;
+	}
+
+	.p-4 a {
+		color: #D5F5E3;
+	}
+
+	#jumbotron {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.section-header {
+		flex-direction: column;
+	}
+
+	#case-studies-section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.card {
+		width: 100%;
+		margin: 15px 0px;
+	}
+
+	#link-to-more {
+		align-items: flex-start;
+	}
+
+	#jumbotron-image {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+
+	main {
+		margin: 0px 30px;
+	}
+
+		#navbar {
+		display: none;
+	}
+
+	.hamburger-menu {
+		display: block;
+		margin-bottom: 30px;
+		background-color: #1C2833;
+		color: #D5F5E3;
+	}
+
+	.navbar-toggler {
+	margin-left: -60px;
+	}
+
+	.fa-bars:before {
+		color: #D5F5E3;
+	}
+
+	.p-4 {
+		background-color: #273746;
+	}
+
+	.p-4 a {
+		color: #D5F5E3;
+	}
+
+}
