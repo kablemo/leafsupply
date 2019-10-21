@@ -113,6 +113,7 @@ a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+	border: 0px solid red;
 }
 
 #ibm {
@@ -149,6 +150,12 @@ a:hover {
 
 #video-section {
 	padding: 75px 0px;
+}
+
+#bottom-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 footer {
@@ -237,11 +244,10 @@ i:hover {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 640px) {
 	body {
-		background-color: grey;
 	}
 
 	main {
-		margin: 0px;
+		margin: 0px 10px;
 	}
 
 	#navbar {
@@ -280,7 +286,7 @@ i:hover {
 		flex-direction: column;
 	}
 
-	#case-studies-section {
+	#case-studies-section, #contact-section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -302,7 +308,7 @@ i:hover {
 		justify-content: center;
 		width: 100%;
 	}
-	
+
 	#ibm {
 		width: 250px;
 	}
@@ -313,8 +319,7 @@ i:hover {
 @media (max-width: 991.98px) {
 
 	main {
-		margin: 0px 5px;
-		background-color: lime;
+		margin: 0px 10px;
 	}
 
 		#navbar {
@@ -343,8 +348,8 @@ i:hover {
 	.p-4 a {
 		color: #D5F5E3;
 	}
-	
-		#ibm {
+
+	#ibm {
 		width: 250px;
 	}
 
