@@ -262,15 +262,22 @@ i:hover {
 	}
 
 	.navbar-toggler {
-	margin-left: -75px;
+	margin-left: -25px;
 	}
+
+	.custom-control {
+	margin-left: 0px;
+	}
+
 
 	.fa-bars:before {
 		color: #D5F5E3;
 	}
 
 	.p-4 {
-		background-color: #273746;
+		/* background-color: #273746; */
+		background-color: red;
+
 	}
 
 	.p-4 a {
@@ -311,6 +318,7 @@ i:hover {
 
 	#ibm {
 		width: 250px;
+		margin-top: 30px;
 	}
 }
 
@@ -334,7 +342,11 @@ i:hover {
 	}
 
 	.navbar-toggler {
-	margin-left: -60px;
+	margin-left: -25px;
+	}
+
+	.custom-control {
+	margin-left: 0px;
 	}
 
 	.fa-bars:before {
@@ -342,7 +354,9 @@ i:hover {
 	}
 
 	.p-4 {
-		background-color: #273746;
+		/* background-color: #273746; */
+		background-color: red;
+
 	}
 
 	.p-4 a {
@@ -350,6 +364,7 @@ i:hover {
 	}
 
 	#ibm {
+		margin-top: 30px;
 		width: 250px;
 	}
 
