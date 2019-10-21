@@ -282,7 +282,7 @@ i:hover {
 
 	#case-studies-section {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 		width: 100%;
 	}
@@ -301,6 +301,10 @@ i:hover {
 		align-items: center;
 		justify-content: center;
 		width: 100%;
+	}
+	
+	#ibm {
+		width: 250px;
 	}
 }
 
@@ -338,6 +342,10 @@ i:hover {
 
 	.p-4 a {
 		color: #D5F5E3;
+	}
+	
+		#ibm {
+		width: 250px;
 	}
 
 }
