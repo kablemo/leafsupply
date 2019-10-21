@@ -248,6 +248,12 @@ i:hover {
 
 	main {
 		margin: 0px 10px;
+		background-color: yellow;
+	}
+
+		h2 {
+		font-weight: 900;
+		line-height: 1.25em;
 	}
 
 	#navbar {
@@ -262,7 +268,7 @@ i:hover {
 	}
 
 	.navbar-toggler {
-	margin-left: -25px;
+	margin-left: 0px;
 	}
 
 	.custom-control {
@@ -272,7 +278,6 @@ i:hover {
 
 	.fa-bars:before {
 		color: #D5F5E3;
-		margin-left: -100px;
 	}
 
 	.p-4 {
@@ -329,6 +334,13 @@ i:hover {
 
 	main {
 		margin: 0px 10px;
+				background-color: yellow;
+
+	}
+
+	h2 {
+		font-weight: 900;
+		line-height: 1.25em;
 	}
 
 		#navbar {
@@ -343,7 +355,7 @@ i:hover {
 	}
 
 	.navbar-toggler {
-	margin-left: -25px;
+	margin-left: 0px;
 	}
 
 	.custom-control {
@@ -352,7 +364,6 @@ i:hover {
 
 	.fa-bars:before {
 		color: #D5F5E3;
-		margin-left: -100px;
 	}
 
 	.p-4 {
