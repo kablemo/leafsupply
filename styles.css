@@ -248,12 +248,16 @@ i:hover {
 
 	main {
 		margin: 0px 10px;
-		background-color: yellow;
+		background-color: lime;
+	}
+	
+	h1 {
+		line-height: 1em;
 	}
 
-		h2 {
-		font-weight: 900;
-		line-height: 1.25em;
+	h2 {
+		font-weight: 700;
+		line-height: 1em;
 	}
 
 	#navbar {
@@ -268,7 +272,7 @@ i:hover {
 	}
 
 	.navbar-toggler {
-	margin-left: 0px;
+	margin-left: -100px;
 	}
 
 	.custom-control {
@@ -334,13 +338,13 @@ i:hover {
 
 	main {
 		margin: 0px 10px;
-				background-color: yellow;
+				background-color: lime;
 
 	}
 
 	h2 {
-		font-weight: 900;
-		line-height: 1.25em;
+		font-weight: 700;
+		line-height: 1em;
 	}
 
 		#navbar {
@@ -355,7 +359,7 @@ i:hover {
 	}
 
 	.navbar-toggler {
-	margin-left: 0px;
+	margin-left: -100px;
 	}
 
 	.custom-control {
