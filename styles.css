@@ -237,7 +237,7 @@ i:hover {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 640px) {
 	body {
-		background-color: yellow;
+		background-color: grey;
 	}
 
 	main {
@@ -282,7 +282,7 @@ i:hover {
 
 	#case-studies-section {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
 		width: 100%;
 	}
@@ -310,6 +310,7 @@ i:hover {
 
 	main {
 		margin: 0px 5px;
+		background-color: lime;
 	}
 
 		#navbar {
