@@ -272,6 +272,7 @@ i:hover {
 
 	.fa-bars:before {
 		color: #D5F5E3;
+		margin-left: -100px;
 	}
 
 	.p-4 {
@@ -351,6 +352,7 @@ i:hover {
 
 	.fa-bars:before {
 		color: #D5F5E3;
+		margin-left: -100px;
 	}
 
 	.p-4 {
