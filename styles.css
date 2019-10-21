@@ -248,7 +248,7 @@ i:hover {
 
 	main {
 		margin: 0px 10px;
-		background-color: orange;
+		background-color: grey;
 	}
 	
 	h1 {
@@ -285,9 +285,7 @@ i:hover {
 	}
 
 	.p-4 {
-		/* background-color: #273746; */
-		background-color: red;
-
+		background-color: #273746;
 	}
 
 	.p-4 a {
@@ -338,7 +336,7 @@ i:hover {
 
 	main {
 		margin: 0px 10px;
-				background-color: orange;
+				background-color: grey;
 
 	}
 
@@ -371,9 +369,7 @@ i:hover {
 	}
 
 	.p-4 {
-		/* background-color: #273746; */
-		background-color: red;
-
+		background-color: #273746;
 	}
 
 	.p-4 a {
